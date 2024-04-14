@@ -1,7 +1,9 @@
 export default function Speaker({ title, subtitle, para, speakerImage }) {
   return (
     <>
+        
       <div
+      
         className="card2"
         style={{
           display: "flex",

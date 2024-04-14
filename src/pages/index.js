@@ -2,7 +2,11 @@
 import Check from "../components/check";
 import Speaker from "../components/speaker";
 import Header from "@/components/header";
-
+import About from "@/components/about";
+import Investors from "@/components/investors";
+import Theme from "@/components/theme";
+import Footer from "@/components/footer";
+import Cover from "@/components/cover";
 
 export default function Home() {
   const data = [
@@ -28,7 +32,9 @@ export default function Home() {
 
       }>
         <Header/>
-      
+        <Cover/>
+        <About/>
+        <Theme/>
         {data.map((item, index) => (
 
           <Check key={index} logo1={item.logo1} head={item.head} sub={item.sub} image={item.image} />
@@ -37,8 +43,9 @@ export default function Home() {
         {data2.map((item, index) => (
             <Speaker key={index} speakerImage={item.speakerImage} title={item.title} subtitle={item.subtitle} para={item.para} />
         ))}
+        <Investors/>
       </div>
-     
+     <Footer/>
     </>
 
   );

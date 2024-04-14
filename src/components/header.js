@@ -15,16 +15,16 @@ export default function Header() {
           alignItems: "center",
         }}
       >
-        <div style={{ marginLeft: "2rem" }}>
+        <div style={{ marginLeft: "3rem" }}>
           <img src="logo.svg" alt="E-Summit Logo" />
         </div>
-        <div style={{ marginRight: "2rem" }}>
+        <div style={{ marginRight: "3rem" }}>
           <a
             href="#"
             style={{
               color: "white",
               textDecoration: "none",
-              marginRight: "2rem",
+              marginRight: "3rem",
             }}
           >
             Home
@@ -34,7 +34,7 @@ export default function Header() {
             style={{
               color: "white",
               textDecoration: "none",
-              marginRight: "2rem",
+              marginRight: "3rem",
             }}
           >
             About
@@ -44,7 +44,7 @@ export default function Header() {
             style={{
               color: "white",
               textDecoration: "none",
-              marginRight: "2rem",
+              marginRight: "3rem",
             }}
           >
             Events
@@ -54,7 +54,7 @@ export default function Header() {
             style={{
               color: "white",
               textDecoration: "none",
-              marginRight: "2rem",
+              marginRight: "3rem",
             }}
           >
             Sponsors
@@ -64,7 +64,7 @@ export default function Header() {
             style={{
               color: "white",
               textDecoration: "none",
-              marginRight: "2rem",
+              marginRight: "3rem",
             }}
           >
             Contact
@@ -72,7 +72,7 @@ export default function Header() {
         </div>
 
         <div
-          style={{ display: "flex", flexDirection: "row", marginRight: "2rem" }}
+          style={{ display: "flex", flexDirection: "row", marginRight: "3rem" }}
         >
           <button
             style={{
