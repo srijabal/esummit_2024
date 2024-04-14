@@ -37,7 +37,17 @@ export default function Header() {
               marginRight: "3rem",
             }}
           >
-            About
+            Speakers
+          </a>
+          <a
+            href="#"
+            style={{
+              color: "white",
+              textDecoration: "none",
+              marginRight: "3rem",
+            }}
+          >
+            Partners
           </a>
           <a
             href="#"
@@ -57,7 +67,18 @@ export default function Header() {
               marginRight: "3rem",
             }}
           >
-            Sponsors
+            Tickets
+          </a>
+
+          <a
+            href="#"
+            style={{
+              color: "white",
+              textDecoration: "none",
+              marginRight: "3rem",
+            }}
+          >
+            HiRes
           </a>
           <a
             href="#"
@@ -67,7 +88,7 @@ export default function Header() {
               marginRight: "3rem",
             }}
           >
-            Contact
+            Agenda
           </a>
         </div>
 
