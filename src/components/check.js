@@ -1,16 +1,32 @@
+import { useEffect, useState } from "react";
 import CheckCard from "../components/checkCard";
-
+import axios from "axios";
 
 export default function Check () {
 
-    const data = [
+    const data1 = [
         { logo1: "/frame2.webp", head: "Ideastorm", sub: "Premier case building and piching competition at E-summit'24 , now tailored for school students to kickstart their Enterpreneurial ambitions", image: "./ideastorm.webp" },
         { logo1: "/frame2.webp", head: "Investors Vista", sub: "We will shape minds that will give you the ability of investing like sharks through this event.", image: "./vista.webp" },
         { logo1: "/frame2.webp", head: "Emerge Bootcamp", sub: "A two-week program including the online sessions or course material, assignments, & the final project", image: "./emerge.webp" },
         { logo1: "/frame2.webp", head: "Productathon AI", sub: "A hackathon uniting AI enthusiasts to solve real problems and foster innovation.", image: "./Ai.webp" },
       ]
 
-    return(
+       //   const [data, setData] = useState([]);
+
+    //   const fetchData = async () => {
+    //       try {
+    //           const response = await axios.get("https://api.esummit.in/events/all");
+    //           setData(response.data);
+    //       } catch (error) {
+    //           console.error("Error fetching data:", error);
+    //       }
+    //   };
+  
+    //   useEffect(() => {
+    //       fetchData();
+    //   }, []);
+
+      return(
         <>
        
          <div>
@@ -29,9 +45,9 @@ export default function Check () {
             <p style={{ color: "white", fontSize: "1rem", marginTop: "1.5rem", marginBottom: "5rem", marginRight: "4rem",marginLeft:"1rem" }}>
             Challenge your limits with events full of uncertainities   </p>
         </div>
-        {data.map((item, index) => (
+        {data1.map((item, index) => (
 
-<CheckCard key={index} logo1={item.logo1} head={item.head} sub={item.sub} image={item.image} />
+<CheckCard key={index} logo1={"/frame2.webp"} head={item.head} sub={item.sub} image={item.image} />
 ))}
         </>
     )

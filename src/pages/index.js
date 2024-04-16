@@ -1,4 +1,3 @@
-
 import Check from "@/components/check";
 import Speaker from "@/components/speaker";
 import Header from "@/components/header";

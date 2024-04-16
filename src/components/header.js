@@ -95,22 +95,35 @@ export default function Header() {
         <div
           style={{ display: "flex", flexDirection: "row", marginRight: "3rem" }}
         >
-          <button
+          
+           <button
             style={{
-              borderColor: "#0ac182",
-              border: "4",
-              padding: "1rem",
-              borderRadius: "1rem",
+              backgroundColor: "#010101",
+              color: "white",
+              padding: "0.8rem",
+              borderRadius: "0.4rem",
+              width: "6.5rem",
+              height:"3rem",
+              fontWeight: "500",
+              fontSize: "1rem",
+              border:"2px solid #45db9c",
+              marginLeft:"1rem",
+              marginRight:"1.5rem"
             }}
           >
             Login
           </button>
           <button
             style={{
-              marginLeft: "1rem",
-              backgroundColor: "#0ac182",
-              padding: "1rem",
-              borderRadius: "1rem",
+              backgroundColor: "#45db9c",
+              color: "#010101",
+              padding: "0.8rem",
+              borderRadius: "0.4rem",
+              width: "6.5rem",
+              height:"3rem",
+              marginRight: "1rem",
+              fontWeight: "500",
+              fontSize: "1rem",
             }}
           >
             Register

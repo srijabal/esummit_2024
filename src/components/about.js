@@ -1,5 +1,3 @@
-
-
 export default function About() {
     return (
       <div className="About" style={{ display: "flex", alignItems: "center" }}>

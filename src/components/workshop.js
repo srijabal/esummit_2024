@@ -1,6 +1,5 @@
 import WorkshopCard from "../components/workshopCard";
 
-
 export default function Workshop () {
 
     const data1 = [

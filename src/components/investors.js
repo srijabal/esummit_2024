@@ -1,5 +1,3 @@
-
-
 export default function Investors() {
     return (
       <div className="Investors" style={{ flexDirection: "column" }}>
@@ -11,8 +9,8 @@ export default function Investors() {
           <img src="inflect.webp" alt="Image 1" style={{ width: "20%", height: "15vh", marginRight: "10px" }} />
           <img src="nirman.webp" alt="Image 2" style={{ width: "20%", height: "15vh", marginRight: "10px" }} />
           <img src="titan.webp" alt="Image 3" style={{ width: "20%", height: "15vh", marginRight: "10px" }} />
-          <img src="huddle.webp" alt="Image 3" style={{ width: "20%", height: "15vh", marginRight: "10px" }} />
-          <img src="venture.webp" alt="Image 3" style={{ width: "25%", height: "15vh", marginRight: "10px" }} />
+          <img src="huddle.webp" alt="Image 4" style={{ width: "20%", height: "15vh", marginRight: "10px" }} />
+          <img src="venture.webp" alt="Image 5" style={{ width: "25%", height: "15vh", marginRight: "10px" }} />
         </div>
         <hr style={{ width: "100%", borderTop: "0.02rem solid #0ac182", marginBottom: "1rem",marginTop:"6rem" }} />
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" ,marginTop:"5rem"}}>

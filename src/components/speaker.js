@@ -13,11 +13,6 @@ export default function Speaker() {
 
     return(
         <>
-        {/* <div style={{display:"flex",flexDirection:"column",width:"100%"}}>
-        <h1 style={{ color:"#0ac182",fontSize:"4rem",marginBottom:"1rem"}}>Speakers</h1>
-        <p style={{color:"white",fontSize:"1rem",marginBottom:"3rem"}}>Listen from the experiences of industry experts and Let them leave you speechless</p>
-       
-        </div> */}
          <div>
             <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "space-between", marginTop: "5rem", marginRight: '80rem',width:"97%" }}>
                 <h1 style={{ color: "#0ac182", fontSize: "4rem", marginTop: "1rem", marginRight: "2rem",marginLeft:"5rem" }}>Speakers</h1>

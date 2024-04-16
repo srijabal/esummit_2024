@@ -1,7 +1,7 @@
-
 export default function Theme() {
     return (
         <div>
+            
             <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "space-between", marginTop: "5rem", marginRight: '80rem',width:"100%" }}>
                 <h1 style={{ color: "#0ac182", fontSize: "4rem", marginTop: "1rem", marginRight: "2rem" }}>Theme</h1>
 
